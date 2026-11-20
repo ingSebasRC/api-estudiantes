@@ -49,16 +49,16 @@ Al levantar los servicios con **Docker Compose**, ambos contenedores (`app` y `d
 ## Evidencias de funcionamiento
 
 ### 1. Contenedores activos (`docker compose ps`)
-![Estado de contenedores](docs/compose-ps.png)
+![Estado de contenedores](docs/ComposePS.PNG)
 
 ### 2. Verificación de salud y conexión a MySQL (`GET /api/health`)
-![Endpoint Health](docs/health.png)
+![Endpoint Health](docs/Curl1.PNG)
 
 ### 3. Listado de estudiantes (`GET /api/estudiantes`)
-![Listado de estudiantes](docs/get-estudiantes.png)
+![Listado de estudiantes](docs/Curl2.PNG)
 
 ### 4. Registro de estudiante y validación de correo único (`POST /api/estudiantes`)
-![Registro de estudiante](docs/post-estudiantes.png)
+![Registro de estudiante](docs/Curl3.PNG)
 
 ### 5. Consulta por ID (`200 OK`), no encontrado (`404`) y validación de campos (`422`)
-![Consulta por ID y validaciones](docs/get-id-validaciones.png)
+![Consulta por ID y validaciones](docs/Curl4PNG.PNG)
