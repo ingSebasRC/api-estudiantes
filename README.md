@@ -61,4 +61,4 @@ Al levantar los servicios con **Docker Compose**, ambos contenedores (`app` y `d
 ![Registro de estudiante](docs/Curl3.PNG)
 
 ### 5. Consulta por ID (`200 OK`), no encontrado (`404`) y validación de campos (`422`)
-![Consulta por ID y validaciones](docs/Curl4PNG.PNG)
+![Consulta por ID y validaciones](docs/Curl4.PNG)
